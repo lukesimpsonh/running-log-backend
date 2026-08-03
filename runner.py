@@ -1,10 +1,8 @@
 import json
 import os
 
-# Initialize global master log
 running_log = []
 
-# Dynamically set file paths in the script's directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
 json_file_path = os.path.join(script_dir, "running_log.json")
 txt_file_path = os.path.join(script_dir, "log.txt")
